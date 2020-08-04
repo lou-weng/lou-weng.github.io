@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --main-color: #0F021F;
+    --secondary-color: white;
+    --text-size: 2vh;
+    --nav-link-size: 2vh;
+}
+
+html {
+    height:100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--main-color);
+    height: 100%;
+}
+
+p {
+    color:var(--secondary-color);
+    font-size: var(--text-size);
+}
+
+.section-header {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+hr {
+    background-color: var(--secondary-color);
+}
+
+a, a:active, a:link, a:visited, a:disabled {
+    color: white;
+    font-size: var(--nav-link-size);
+    font-weight: bold;
+}
+
+li {
+    color: var(--secondary-color);
+    font-size: var(--text-size);
+}
+
+ul > p {
+    justify-self: center;
+}
+
+/*______________About Section__________________*/
+
+#first-skyline {
+    background-image: url(../static_files/assets/img/toronto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    background-attachment: fixed;
+}
+
+#second-skyline {
+    background-image: url(../static_files/assets/img/vancouver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    background-attachment: fixed;
+}
