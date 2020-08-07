@@ -1,17 +1,19 @@
 <div>
     <div class="row">
         <div class="col-4 col-xs-3">
-            <a href="#first-skyline">About</a><br>
-            <a href="#">Interests</a>
+            {% for nav in site.data.navigation.homenav.left %}
+                <a href="{{ nav.link }}">{{ nav.name }}</a><br>
+            {% endfor %}
         </div>
         <div class="col-4 col-xs-6 d-flex justify-content-center">
-            <a href="https://www.linkedin.com/in/louie-weng/"><img src='../static_files/assets/svg/linkedin.svg''></a>
-            <a href="#"><img src=' ../static_files/assets/svg/github.svg'></a>
-            <a href="#"><img src='../static_files/assets/svg/email.svg'></a>
+            {% for nav in site.data.navigation.homenav.middle %}
+                <a href="{{ nav.link }}"><img src='{{ site.baseurl }}/static_files/assets/{{ nav.img }}'></a>
+            {% endfor %}
         </div>
         <div class="col-4 col-xs-3 text-right">
-            <a href="#">Skills</a><br>
-            <a href="#experience">Experience</a>
+            {% for nav in site.data.navigation.homenav.right %}
+                <a href="{{ nav.link }}">{{ nav.name }}</a><br>
+            {% endfor %}
         </div>
     </div>
 </div>

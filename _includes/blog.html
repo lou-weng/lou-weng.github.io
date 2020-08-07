@@ -1,3 +1,4 @@
+<div class="skyline container-fluid"></div>
 <div id="blog" class="container py-5">
     <p class="section-header">&diams; My Blog &diams;</p>
     <div class="list-unstyled">
@@ -5,7 +6,7 @@
             {% for post in site.posts reversed limit:5 %}
             <div class="d-flex flex-wrap">
                 <img src='{{ site.baseurl }}/static_files/assets/{{ post.image }}'
-                    class="col-md-3 h-100 img-fluid border-0 align-self-center load-hidden events" alt="...">
+                    class="col-md-3 h-100 img-fluid border-0 align-self-center load-hidden" alt="...">
                 <div class="col-md-9 py-3 load-hidden events">
                     <h2 class="text-light">{{ post.title }}</h2>
                     <p>{{ post.excerpt }}</p>
@@ -16,3 +17,4 @@
         </div>
     </div>
 </div>
+<div class="skyline container-fluid"></div>

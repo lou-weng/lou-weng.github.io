@@ -1,0 +1,27 @@
+topnav:
+  - name: About Me
+    link: \#about
+  - name: My Blog
+    link: \#blog
+
+homenav:
+  left:
+    - name: About
+      link: \#about
+    - name: Interests
+      link: 
+  middle:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/louie-weng/
+      img: svg/linkedin.svg
+    - name: Github
+      link: https://github.com/lou-weng
+      img: svg/github.svg
+    - name: Resume
+      link: 
+      img: svg/email.svg
+  right:
+    - name: Skills
+      link:
+    - name: Experience
+      link:
