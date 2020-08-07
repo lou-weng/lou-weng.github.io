@@ -90,7 +90,7 @@ ul > p {
 .nav-section {
     position: fixed;
     top:0;
-    left:0; 
+    right:0; 
     z-index: 1
 }
 
@@ -106,4 +106,8 @@ a > img:hover {
 a:hover {
     text-decoration: none;
     color: darkgray;
+}
+
+.load-hidden {
+    visibility: hidden;
 }

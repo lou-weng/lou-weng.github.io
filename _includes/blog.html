@@ -1,13 +1,13 @@
-<div class="skyline container-fluid"></div>
-<div id="blog" class="container py-5">
-    <p class="section-header">&diams; My Blog &diams;</p>
+<div class="blog load-hidden skyline container-fluid"></div>
+<div class="container py-5">
+    <p class="blog section-header">&diams; My Blog &diams;</p>
     <div class="list-unstyled">
         <div class="card card-body bg-transparent">
             {% for post in site.posts reversed limit:5 %}
-            <div class="d-flex flex-wrap">
+            <div class="d-flex flex-wrap blog">
                 <img src='{{ site.baseurl }}/static_files/assets/{{ post.image }}'
-                    class="col-md-3 h-100 img-fluid border-0 align-self-center load-hidden" alt="...">
-                <div class="col-md-9 py-3 load-hidden events">
+                    class="col-md-3 h-100 img-fluid border-0 align-self-center blog" alt="...">
+                <div class="col-md-9 py-3 blog">
                     <h2 class="text-light">{{ post.title }}</h2>
                     <p>{{ post.excerpt }}</p>
                     <a href="{{ post.url }}" class="mx-auto btn btn-secondary">Read More</a>

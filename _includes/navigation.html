@@ -1,18 +1,19 @@
-<div class="mx-3">
+<div class="navigation mx-3">
+    <hr class="text-light mx-3" style="height: 0.25vh">
     <div class="row">
         <div class="col-4 col-xs-3">
             {% for nav in site.data.navigation.homenav.left %}
-                <a href="{{ nav.link }}">{{ nav.name }}</a><br>
+                <a class="navigation" href="{{ nav.link }}">{{ nav.name }}</a><br>
             {% endfor %}
         </div>
         <div class="col-4 col-xs-6 d-flex justify-content-center">
             {% for nav in site.data.navigation.homenav.middle %}
-                <a href="{{ nav.link }}"><img src='{{ site.baseurl }}/static_files/assets/{{ nav.img }}'></a>
+                <a class="navigation" href="{{ nav.link }}"><img src='{{ site.baseurl }}/static_files/assets/{{ nav.img }}'></a>
             {% endfor %}
         </div>
         <div class="col-4 col-xs-3 text-right">
             {% for nav in site.data.navigation.homenav.right %}
-                <a href="{{ nav.link }}">{{ nav.name }}</a><br>
+                <a class="navigation" href="{{ nav.link }}">{{ nav.name }}</a><br>
             {% endfor %}
         </div>
     </div>
