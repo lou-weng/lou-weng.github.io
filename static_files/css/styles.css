@@ -59,7 +59,7 @@ ul > p {
 /*______________About Section__________________*/
 
 .skyline {
-    background-image: url(../static_files/assets/img/toronto.jpg);
+    background-image: url(../assets/img/toronto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 15vh;
@@ -67,7 +67,7 @@ ul > p {
 }
 
 .skyline-static {
-    background-image: url(../static_files/assets/img/vancouver.jpg);
+    background-image: url(../assets/img/vancouver.jpg);
     background-repeat: no-repeat;
     background-position-y: 50%;
     background-size: cover;
@@ -79,7 +79,7 @@ ul > p {
 }
 
 #home {
-    background-image: url(../static_files/assets/img/vancouver.jpg);
+    background-image: url(../assets/img/vancouver.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
