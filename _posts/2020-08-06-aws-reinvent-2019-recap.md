@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Part I AWS re:Invent 2019 Recap—It begins...
-
+tags: AWS blog 
 image: img/aws.png
 ---
 
