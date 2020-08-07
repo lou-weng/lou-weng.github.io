@@ -89,13 +89,14 @@ ul > p {
 
 .nav-section {
     position: fixed;
-    left: 0;
-    z-index: 1;
+    top:0;
+    left:0; 
+    z-index: 1
 }
 
 .nav-link:active, .nav-link:hover {
-background-color: white;
-opacity: 50;
+    background-color: white;
+    opacity: 50;
 }
 
 a > img:hover {

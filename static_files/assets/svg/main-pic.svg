@@ -16,7 +16,7 @@
    width="45%"
    class="d-flex mx-auto"
    sodipodi:docname="main-pic.svg"
-   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)">
+   inkscape:version="1.0 (9f2f71dc58, 2020-08-02)">
   <sodipodi:namedview
      inkscape:document-rotation="0"
      pagecolor="#ffffff"
@@ -28,16 +28,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1018"
+     inkscape:window-height="1005"
      id="namedview1711"
      showgrid="false"
-     inkscape:zoom="3.8798199"
-     inkscape:cx="261"
-     inkscape:cy="129.62787"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:zoom="3.1536515"
+     inkscape:cx="131.70742"
+     inkscape:cy="119.31811"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1042" />
+     inkscape:current-layer="svg1457" />
   <metadata
      id="metadata1463">
     <rdf:RDF>
@@ -81,12 +81,13 @@
          ry="99.293182" />
     </clipPath>
   </defs>
-  <path
-     id="path1449"
-     fill="white"
-     d="M348 43.5H438.955C460.795 43.5 478.5 62.9756 478.5 87V174H435V87H348V43.5ZM83.0455 478.5H174V435H87V348H43.5V435C43.5 459.024 61.2051 478.5 83.0455 478.5ZM348 435V478.5H438.955C460.795 478.5 478.5 459.024 478.5 435V348H435V435H348ZM174 87V43.5H83.0455C61.2051 43.5 43.5 62.9756 43.5 87V174H87V87H174Z"
-     clip-rule="evenodd"
-     fill-rule="evenodd" />
+  <ellipse
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.979292"
+     id="path1004"
+     cx="266.90292"
+     cy="259.94553"
+     rx="174.17122"
+     ry="177.83594" />
   <g
      id="g1455"
      style="mix-blend-mode:lighten">

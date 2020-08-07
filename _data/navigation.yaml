@@ -1,4 +1,6 @@
 topnav:
+  - name: Home
+    link: \#home
   - name: About Me
     link: \#about
   - name: My Blog
