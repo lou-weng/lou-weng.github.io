@@ -14,6 +14,7 @@ html {
 body {
     background-color: var(--main-color);
     height: 100%;
+    font-family: 'Oxygen';
 }
 
 p {
@@ -62,7 +63,7 @@ ul > p {
     background-image: url(../assets/img/toronto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 15vh;
+    height: 20vh;
     background-attachment: fixed;
 }
 
@@ -87,16 +88,8 @@ ul > p {
 
 /*_______________Side Navigation Bar__________________*/
 
-.nav-section {
-    position: fixed;
-    top:0;
-    right:0; 
-    z-index: 1
-}
-
 .nav-link:active, .nav-link:hover {
-    background-color: white;
-    opacity: 50;
+    opacity: 0.25;
 }
 
 a > img:hover {
@@ -111,3 +104,4 @@ a:hover {
 .load-hidden {
     visibility: hidden;
 }
+

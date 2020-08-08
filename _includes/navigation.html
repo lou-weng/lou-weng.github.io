@@ -1,21 +1,16 @@
-<div class="navigation mx-3">
-    <hr class="text-light mx-3" style="height: 0.25vh">
-    <div class="row">
-        <div class="col-4 col-xs-3">
-            {% for nav in site.data.navigation.homenav.left %}
-                <a class="navigation" href="{{ nav.link }}">{{ nav.name }}</a><br>
-            {% endfor %}
-        </div>
-        <div class="col-4 col-xs-6 d-flex justify-content-center">
-            {% for nav in site.data.navigation.homenav.middle %}
-                <a class="navigation" href="{{ nav.link }}"><img src='{{ site.baseurl }}/static_files/assets/{{ nav.img }}'></a>
-            {% endfor %}
-        </div>
-        <div class="col-4 col-xs-3 text-right">
-            {% for nav in site.data.navigation.homenav.right %}
-                <a class="navigation" href="{{ nav.link }}">{{ nav.name }}</a><br>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="navbar-collapse collapse justify-content-end bg-transparent" id="navbarToggler">
+        <ul class="navbar-nav">
+            {% for nav in site.data.navigation.topnav %}
+            <li class="nav-link mx-3 px-3">
+                <a class="nav-item" href="{{ nav.link }}">{{ nav.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

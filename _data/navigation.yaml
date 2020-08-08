@@ -1,9 +1,13 @@
 topnav:
   - name: Home
     link: \#home
-  - name: About Me
+  - name: About
     link: \#about
-  - name: My Blog
+  - name: Blog
+    link: \#blog
+  - name: Journey
+    link: \#blog
+  - name: Interests
     link: \#blog
 
 homenav:
