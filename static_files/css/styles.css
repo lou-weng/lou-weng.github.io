@@ -43,7 +43,7 @@ hr {
 
 .vl {
     background-color: white;
-    width: 0.1vw;
+    width: 1px;
     height: 5vh;
     display: block;
     align-self: center;
@@ -113,3 +113,34 @@ a:hover {
     visibility: hidden;
 }
 
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
