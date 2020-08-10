@@ -41,6 +41,14 @@ hr {
     background-color: var(--secondary-color);
 }
 
+.vl {
+    background-color: white;
+    width: 0.1vw;
+    height: 5vh;
+    display: block;
+    align-self: center;
+}
+
 a, a:active, a:link, a:visited, a:disabled {
     color: white;
     font-size: var(--nav-link-size);

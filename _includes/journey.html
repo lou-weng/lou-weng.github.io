@@ -1,0 +1,18 @@
+<div id="journey" class="journey load-hidden container py-5">
+    <p class="section-header">&diams; My Journey &diams;</p>
+    <div class="">
+        {% for experience in site.data.experience %}
+        <div class="vl mx-auto"> </div>
+        <div class="journey card border-0 bg-primary text-center mt-3">
+            <img class="rounded bg-light border-1 d-block mx-auto mb-3" src="{{ experience.img }}">
+            <p><b>{{experience.title}}</b><br>{{experience.company}}<br>{{experience.date}}</p>
+            <!-- <ul>
+                {% for detail in experience.content %}
+                <li>{{detail}}</li>
+                {% endfor %}
+            </ul> -->
+        </div>
+        {% endfor %}
+        <div class="vl mx-auto"> </div>
+    </div>
+</div>
