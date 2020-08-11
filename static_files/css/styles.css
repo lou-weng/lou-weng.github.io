@@ -118,7 +118,7 @@ a:hover {
 
 @media (max-width: 576px) {
     .card-columns {
-        column-count: 1;
+        column-count: 2;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
