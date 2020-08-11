@@ -118,6 +118,8 @@ a:hover {
         column-count: 1;
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        height: auto;
     }
 }
 
