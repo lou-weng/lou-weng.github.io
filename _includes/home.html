@@ -1,14 +1,20 @@
 <div id="home" class="home load-hidden h-100 row container-fluid">
     <div class="container home row align-items-center mx-auto">
-
         <div class="w-100">
-
             <div class="row align-items-center justify-content-center">
-
-                <p class="home mx-auto text-center title">Hi, my name is Louie Weng.<br>Welcome to my site and blog.</p>
+                <div class="justify-content-center">
+                    <p class="home mx-auto text-center title">Hi, my name is Louie Weng.<br>Welcome to my site and blog.</p>
+                    <div class="row justify-content-center">
+                        {% for icon in site.data.navigation.contact %}
+                        <a id="{{ icon.name }}" class="home" href="{{ icon.link }}">
+                            <img src="{{ site.baseurl }}/static_files/assets/{{ icon.img }}">
+                        </a>
+                        {% endfor %}
+                    </div>
+                    <p id="personal_email" class="text-center">Reach me @ louieweng@outlook.com</p>
+                </div>
                 <img class="home col-lg-6 col-md-8 col-xs-12 col-sm-12" src='../static_files/assets/svg/main-pic.svg'>
             </div>
-
         </div>
     </div>
 </div>

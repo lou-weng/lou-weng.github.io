@@ -10,24 +10,14 @@ topnav:
   - name: Interests
     link: \#blog
 
-homenav:
-  left:
-    - name: About
-      link: \#about
-    - name: Interests
-      link: 
-  middle:
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/louie-weng/
-      img: svg/linkedin.svg
-    - name: Github
-      link: https://github.com/lou-weng
-      img: svg/github.svg
-    - name: Resume
-      link: 
-      img: svg/email.svg
-  right:
-    - name: Skills
-      link:
-    - name: Experience
-      link:
+
+contact:
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/louie-weng/
+    img: svg/linkedin.svg
+  - name: Github
+    link: https://github.com/lou-weng
+    img: svg/github.svg
+  - name: Email
+    link: javascript:void(0)
+    img: svg/email.svg

@@ -144,3 +144,7 @@ a:hover {
         column-count: 4;
     }
 }
+
+#personal_email {
+    visibility: hidden;
+}
