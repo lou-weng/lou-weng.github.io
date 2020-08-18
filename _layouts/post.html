@@ -5,14 +5,17 @@ layout: default
 <div class="skyline-static container-fluid"></div>
 
 <div class="container blog load-hidden">
-    <div class="d-flex flex-wrap my-3">
-        <div class="load-hidden blog align-self-center">
-            <h1 class="mx-0">{{ page.title }}</h1>
-            <p class="">Date posted: {{ page.date }}</p>
+    <div class="col-md-9 mx-auto">
+        <div class="d-flex flex-wrap my-3">
+            <div class="load-hidden blog align-self-center">
+                <h1 class="mx-0">{{ page.title }}</h1>
+                <p class="">Date posted: {{ page.date }}</p>
+            </div>
+            <img class="col-md-3 col-sm-6 h-100 m-3 d-block mx-auto"
+                src="{{ site.baseurl }}/static_files/assets/{{ page.image }}">
         </div>
-        <img class="col-md-3 col-sm-6 h-100 m-3 d-block mx-auto" src="{{ site.baseurl }}/static_files/assets/{{ page.image }}">
+
+        {{ page.content }}
+        <a href="{{ site.baseurl }}/#blog" class="btn btn-secondary">Back to Home</a>
     </div>
-    
-    {{ page.content }}
-    <a href="{{ site.baseurl }}/#blog" class="btn btn-secondary">Back to Home</a>
 </div>

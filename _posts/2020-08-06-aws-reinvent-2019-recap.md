@@ -9,7 +9,7 @@ Was going into the 2019 AWS re:Invent conference without knowing anything relate
 
 ### The adventure begins
 
-I remember it was October of 2019 when my friend first brought up the idea of the AWS re:Invent Conference. He was a mentor and actually a previous ultimate frisbee coach of mine who had been in the technology industry for a few years. I at the time was just a clueless "computer science" student who had just learned about what computers actually were. 
+I remember it was October of 2019 when my friend first brought up the idea of the AWS re:Invent Conference. He was a mentor and actually a previous ultimate frisbee coach of mine who had been in the technology industry for a few years. I, at the time, was just a clueless "computer science" student who was still unsure of his life choices at that point. I had just completed my first year of school and wasn't sure where I wanted to take my career. 
 
 Let me preface the fact that at that particular moment in my life, I had just learned what an operating system really was. Yes I actually did not know that there existed more operating systems other than Windows and MacOS. Also yes I was already a year into my combined CS degree. Looking back now, this just makes the fact that I even considered attending a technology conference even more questionable. 
 
